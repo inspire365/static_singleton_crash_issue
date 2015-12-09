@@ -1,2 +1,2 @@
-# static_singleton_crash_issue
+# Static Singleton Crash Issue
 The analysis of a static singleton crash issue
