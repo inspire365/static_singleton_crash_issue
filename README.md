@@ -66,9 +66,9 @@
 		}
 
 
-void f()
-{
-  m_a = (int *)100;
-  printf("A::f m_a == %p\n", m_a);
-}
+  void f()
+  {
+    m_a = (int *)100;
+    printf("A::f m_a == %p\n", m_a);
+  }
 
