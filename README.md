@@ -1,2 +1,5 @@
-# Static Singleton Crash Issue
-The analysis of a static singleton crash issue
+# The analysis of a Static Singleton Crash Issue
+
+
+
+
