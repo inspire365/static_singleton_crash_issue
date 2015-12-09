@@ -65,6 +65,18 @@
 		  return 0;
 		}
 
+运行的结果:
+		> ./a.out 
+		B
+		A
+		~A
+		~B
+		Segmentation fault (core dumped)
+
+为什么会这样呢？不是都是Static的变量的吗？如果是static的话，里面的空间分配应该还是在才对的啊?
+
+为了理解里面的行为，我用汇编来看一下里面到底发生了什么事！
+main里面首先调用的是B::getInstance,我们直接看B::getInstance吧，在gdb里面反汇编的结果是这样的：
 
 		void f()
 		{
